@@ -1,0 +1,7 @@
+<beans>
+    <bean name="square" class="Square">
+        <property name="x" value="mn"></property>
+        <property name="y" ref="triangle"></property>
+    </bean>
+    <bean name="triangle" class="Triangle"></bean>
+</beans>
